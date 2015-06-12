@@ -1,3 +1,10 @@
+# Edgenet Android
+This fork is intended to build on BTConApp to enable the edgenet <theedg.es> to run on Android.
+The edgenet will use whatever connection is available to it BT, WiFi, NFC, etc, in order to share information in a way that is not dependent on a traditional internet connection.
+Although BTConApp is the first connection mechanism being used, others like n8fr8's wind <https://github.com/n8fr8/WindFarm> or even traditional wifi will be added.
+
+The edgenet uses a ZeroMQ <zeromq.org> stack in order to manage message handling between client applications and the connection layer.
+
 # BTConApp
 Android p2p Library, using Wifi Direct for discovery, and Bluetooth for Communications. Includes example application
 
